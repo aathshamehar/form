@@ -32,13 +32,14 @@ export default function App() {
   <input type="text" name="email" {...register('email',{ required: "Email is required" })} id="" />
   <label htmlFor="">password</label>
   <input type="text" name="password" {...register('password',{ required: "Password is required" })} id="" />
-<label htmlFor="">college</label>
 <input type="text" name="college" {...register('college',{ required: "college is required" })} id="" />
   <label htmlFor="">address</label>
 <input type="text" name="address" {...register('address',{ required: "college is required" })} id="" />
 <button type="submit">Submit</button>
 </form>
 
-
-
+</Container>
+</div>
+);
+}
 
